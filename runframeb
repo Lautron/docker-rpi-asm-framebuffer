@@ -3,7 +3,7 @@
 dir=$(readlink -f $1)
 if [[ -d $dir ]]; then
   echo 'Opening QEMU...'
-  sudo docker run -ti --rm -e DISPLAY=$DISPLAY -v ~/.config/runfb:/config -v $dir:/~/home/qemu -v /tmp/.X11-unix:/tmp/.X11-unix -ti lautronb/rpi-asm-framebuffer
+  sudo docker run -ti --rm -e DISPLAY=$DISPLAY -v ~/.config/runframeb:/config -v $dir:/~/home/qemu -v /tmp/.X11-unix:/tmp/.X11-unix -ti lautronb/rpi-asm-framebuffer
 else
   echo "INVALID DIRECTORY"
 fi
