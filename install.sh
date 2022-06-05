@@ -14,4 +14,6 @@ echo "Copying default config to ./config/runframeb/start_script.sh"
 curl -s https://raw.githubusercontent.com/Lautron/docker-rpi-asm-framebuffer/master/start_script.sh -o ~/.config/runframeb/start_script.sh
 chmod +x ~/.config/runframeb/start_script.sh
 echo ""
+echo "Opening github repo..."
+$BROWSER https://github.com/Lautron/docker-rpi-asm-framebuffer
 
