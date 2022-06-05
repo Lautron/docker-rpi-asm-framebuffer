@@ -15,5 +15,5 @@ curl -s https://raw.githubusercontent.com/Lautron/docker-rpi-asm-framebuffer/mas
 chmod +x ~/.config/runframeb/start_script.sh
 echo ""
 echo "Opening github repo..."
-$BROWSER https://github.com/Lautron/docker-rpi-asm-framebuffer
+$BROWSER https://github.com/Lautron/docker-rpi-asm-framebuffer &
 
