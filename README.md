@@ -32,3 +32,6 @@ DIR/
 ├── memmap
 └── ...
 ```
+## Makefile recommendations
+- Add `< /dev/null &` to the end of your runQEMU command to allow it to run in the background
+- Check the Makefile uploaded to this repo to see an example makefile
