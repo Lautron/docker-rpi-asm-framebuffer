@@ -22,7 +22,7 @@ bash 	      // Open bash shell
 
 ## Usage
 ```
-runqemu DIR
+runframeb DIR
 ```
 Where DIR has the following shape:
 ```
