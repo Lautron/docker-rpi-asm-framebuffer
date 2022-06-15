@@ -16,7 +16,6 @@ This script executes everytime the docker container starts
 ### Default config
 ```
 make 	      // Compile code
-make runQEMU  // Run qemu vm
 bash 	      // Open bash shell
 ```
 
